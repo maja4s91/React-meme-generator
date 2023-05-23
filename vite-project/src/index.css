@@ -1,0 +1,101 @@
+/* Header */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  background-color: #e5e5e5;
+}
+
+.header {
+  display: flex;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  max-width: 55rem;
+  height: 6.5rem;
+  margin: 0 auto;
+  align-items: center;
+  padding: 2rem;
+}
+
+.header-logo {
+  width: 18rem;
+  height: 2.6rem;
+  margin-right: auto;
+}
+.header-text {
+  font-family: "Inter";
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #fff;
+  font-weight: 500;
+}
+/* Form */
+
+.form {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 55rem;
+  margin: 0 auto;
+  padding: 3.6rem;
+  column-gap: 1.7rem;
+  row-gap: 1.5rem;
+}
+
+.form-input {
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  max-width: 23rem;
+  height: 3.5rem;
+  font-family: "Karla", sans-serif;
+  text-indent: 0.5rem;
+}
+
+.form-buton {
+  border: none;
+  grid-column: 1/-1;
+  width: 47.7rem;
+  height: 4rem;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Meme image */
+.meme-container {
+  max-width: 55rem;
+  margin: 0 auto;
+  background-color: #fff;
+  padding-bottom: 5.5rem;
+}
+
+.meme-image {
+  background: url(./memeimg.png);
+  border-radius: 2px;
+  max-width: 47.7rem;
+  height: 26.8rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meme-text {
+  font-family: "Impact";
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+  text-align: center;
+  color: #ffffff;
+  -webkit-text-stroke: 2px #000000;
+  padding: 1.6rem;
+}
