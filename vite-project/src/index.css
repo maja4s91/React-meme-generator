@@ -112,7 +112,23 @@ html {
 
 /* Media queries */
 @media (max-width: 36em) {
-  * {
+  .form,
+  .header,
+  .meme-container {
     max-width: 90%;
+  }
+
+  .form {
+    grid-template-columns: 1fr;
+  }
+  .form-button {
+    max-width: 50%;
+  }
+
+  .header-logo {
+    max-width: 50%;
+  }
+  .header-text {
+    font-size: 1.2rem;
   }
 }
