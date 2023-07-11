@@ -54,7 +54,7 @@ html {
   text-indent: 0.5rem;
 }
 
-.form-buton {
+.form-button {
   border: none;
   grid-column: 1/-1;
   width: 47.7rem;
@@ -108,4 +108,11 @@ html {
 
 .top {
   top: 0;
+}
+
+/* Media queries */
+@media (max-width: 36em) {
+  .form {
+    max-width: 90%;
+  }
 }
