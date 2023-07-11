@@ -75,27 +75,37 @@ html {
   margin: 0 auto;
   background-color: #fff;
   padding-bottom: 5.5rem;
+  position: relative;
+  display: grid;
 }
 
 .meme-image {
-  background: url(./memeimg.png);
-  border-radius: 2px;
-  max-width: 47.7rem;
-  height: 26.8rem;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  max-width: 100%;
+  justify-self: center;
+  align-self: center;
+  border-radius: 3px;
 }
 
 .meme-text {
-  font-family: "Impact";
-  font-weight: 400;
-  font-size: 3.2rem;
-  line-height: 3.9rem;
+  position: absolute;
+  width: 80%;
   text-align: center;
-  color: #ffffff;
-  -webkit-text-stroke: 2px #000000;
-  padding: 1.6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.bottom {
+  bottom: 6rem;
+}
+
+.top {
+  top: 0;
 }
