@@ -112,7 +112,7 @@ html {
 
 /* Media queries */
 @media (max-width: 36em) {
-  .form {
+  * {
     max-width: 90%;
   }
 }
