@@ -23,3 +23,4 @@ updates:
     # Check for updates once a week
     schedule:
       interval: "weekly"
+    open-pull-requests-limit: 10
